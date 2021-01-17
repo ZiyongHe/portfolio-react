@@ -1,11 +1,10 @@
 import React from 'react'
 import Header from './Header'
-import { FaLinkedin, FaGithubSquare } from 'react-icons/fa'
 
 function About() {
   return (
     <>
-      <div className="container my-5 ">
+      <div className="container mb-5 ">
         <Header />
         <div className="row ">
           <div className="col-lg-4 ">

@@ -61,10 +61,12 @@ function Portfolio() {
   ]
   return (
     <div className="container">
-      <Header></Header>
-      {projects.map((project) => (
-        <Project {...project} />
-      ))}
+      <Header className="row"></Header>
+      <div className="row">
+        {projects.map((project) => (
+          <Project {...project} />
+        ))}
+      </div>
     </div>
   )
 }
