@@ -10,7 +10,7 @@ function About() {
         <div className="row ">
           <div className="col-lg-4 ">
             <img
-              src={`${process.env.PUBLIC_URL}/assets/bioimage.PNG`}
+              src={`${process.env.PUBLIC_URL}/assets/bioimage.png`}
               style={{ width: '300px', height: '300px' }}
               alt="bioimage"
               id="bioimage"
