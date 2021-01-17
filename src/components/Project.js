@@ -8,7 +8,7 @@ function Project({ src, alt, id, projectName, description, href, link }) {
         <a href={link}>
           <img
             src={src}
-            className="rounded shadow m-3"
+            className="rounded shadow m-3 project"
             style={{ width: '300px', height: '300px' }}
             alt={alt}
             id={id}
