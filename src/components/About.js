@@ -32,17 +32,6 @@ function About() {
             >
               resume
             </a>
-            <br />
-            <div className="container p-3">
-              <div className="row">
-                <a href="https://github.com/ZiyongHe">
-                  <FaGithubSquare size={45} />
-                </a>
-                <a href="https://www.linkedin.com/in/ziyonghe" className="mx-3">
-                  <FaLinkedin size={45} />
-                </a>
-              </div>
-            </div>
           </div>
         </div>
       </div>

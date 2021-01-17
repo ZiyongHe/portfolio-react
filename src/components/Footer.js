@@ -4,7 +4,10 @@ import { FaLinkedin, FaGithubSquare } from 'react-icons/fa'
 function Footer() {
   return (
     <div className="footer">
-      <div className="container p-3">
+      <div
+        className="container d-flex"
+        style={{ justifyContent: 'space-around' }}
+      >
         <div className="row">
           <a href="https://github.com/ZiyongHe">
             <FaGithubSquare size={45} />
