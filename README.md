@@ -1,13 +1,13 @@
 # Portfolio
 
-![Portfolio website preview](./asset/portfolio-preview.png)
-This is repository of my portfolio which showcases my full stack skills. This website design is mobile-first responsive design.
+This portfolio introduces myself, containing my resume, social media links, applied projects that I have done. This web application is mobile-first responsive design, built with React.
 
-:link: [Portfolio Website](https://ziyonghe.github.io/Portfolio/index.html)
+:link: [Link to view](http://ziyonghe.github.io/portfolio-react)
+![Portfolio website preview](./public/assets/portfolio-preview.png)
 
-## Liberary used
+## Built with
 
+- [React 17.0](https://reactjs.org/)
+- [React Icons 4.1](https://react-icons.github.io/react-icons/)
 - [Bootstrap 4.5](https://getbootstrap.com/)
-- [Font Awesome 4.7](https://fontawesome.com/v4.7.0/)
-- [Animate On Scroll](https://michalsnik.github.io/aos/)
-- [anime.js 3.2](https://animejs.com/)
+- [GitHub Pages](https://pages.github.com/)
