@@ -12,7 +12,7 @@ function Footer() {
           alignItems: 'flex-end',
         }}
       >
-        <div className="row">
+        <div className="row my-3">
           <a href="https://github.com/ZiyongHe" className="mx-3">
             <FaGithubSquare size={45} />
           </a>
