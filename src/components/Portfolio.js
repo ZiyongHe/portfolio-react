@@ -5,11 +5,20 @@ import Header from './Header'
 function Portfolio() {
   const projects = [
     {
+      src: `${process.env.PUBLIC_URL}/assets/bitgora.png`,
+      alt: 'BitGora',
+      id: 'BitGora',
+      projectName: 'BitGora',
+      description: 'A marketplace for bitcoin users',
+      href: 'https://github.com/ZiyongHe/bitGora',
+      link: 'https://bitgora.herokuapp.com/',
+    },
+    {
       src: `${process.env.PUBLIC_URL}/assets/oop-general-hospital.png`,
       alt: 'oop-general-hospital',
       id: 'oop-general-hospital',
       projectName: 'OOP General Hospital',
-      description: 'A full stack database project deployed on Heruko',
+      description: 'Simulation of patient data flow in hospital',
       href: 'https://github.com/ginajonas/oop-general-hospital',
       link: 'https://project-team-2.herokuapp.com/',
     },
@@ -23,6 +32,15 @@ function Portfolio() {
       link: 'https://ziyonghe.github.io/EatLocal/index.html',
     },
     {
+      src: `${process.env.PUBLIC_URL}/assets/to-read-list.png`,
+      alt: 'to-read-list',
+      id: 'to-read-list',
+      projectName: 'To-read List',
+      description: 'Search for books and save',
+      href: 'https://github.com/ZiyongHe/to-read-list',
+      link: 'https://to-read-list.herokuapp.com/',
+    },
+    {
       src: `${process.env.PUBLIC_URL}/assets/employee-directory.png`,
       alt: 'employee-directory',
       id: 'employee-directory',
@@ -32,15 +50,6 @@ function Portfolio() {
       href: 'https://github.com/ZiyongHe/employee-directory',
     },
     {
-      src: `${process.env.PUBLIC_URL}/assets/day-planner.png`,
-      alt: 'day-planner',
-      id: 'day-planner',
-      projectName: 'Day Planner',
-      description: 'A day schedule planner',
-      href: 'https://github.com/ZiyongHe/day-planner',
-      link: 'https://ziyonghe.github.io/day-planner/',
-    },
-    {
       src: `${process.env.PUBLIC_URL}/assets/weather-dashboard.png`,
       alt: 'weather-dashboard',
       id: 'weather-dashboard',
@@ -48,15 +57,6 @@ function Portfolio() {
       description: 'A weather forecast lookup application ',
       href: 'https://github.com/ZiyongHe/weather-dashboard',
       link: 'https://ziyonghe.github.io/weather-dashboard/',
-    },
-    {
-      src: `${process.env.PUBLIC_URL}/assets/javascript-code-quiz.png`,
-      alt: 'javascript-code-quiz',
-      id: 'javascript-code-quiz',
-      projectName: 'JavaScrip Code Quiz',
-      description: 'A timed quiz app on JavaScrip code',
-      href: 'https://github.com/ZiyongHe/javascript-code-quiz',
-      link: 'https://ziyonghe.github.io/javascript-code-quiz/',
     },
   ]
   return (
