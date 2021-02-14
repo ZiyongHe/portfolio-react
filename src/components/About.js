@@ -1,11 +1,9 @@
 import React from 'react'
-import Header from './Header'
 
-function About() {
+function About({ currentPage }) {
   return (
     <>
       <div className="container mb-5 ">
-        <Header />
         <div className="row ">
           <div className="col-lg-4 ">
             <img
