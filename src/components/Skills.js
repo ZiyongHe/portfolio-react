@@ -95,7 +95,7 @@ function Skills(props) {
         <Col lg={3} md={6} className="mb-5">
           <Row className="d-flex justify-content-center">
             <img
-              src={`${process.env.PUBLIC_URL}/assets/C++.svg`}
+              src={`${process.env.PUBLIC_URL}/assets/cplusplus.svg`}
               alt="C++"
               width="160"
               height="160"
