@@ -10,7 +10,7 @@ function Navigation({ handlePageChange }) {
       <Navbar.Toggle id="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
         <Nav className="align-items-end">
-          <li className="nav-item">
+          <li className="nav-item px-3">
             <Link
               to="/"
               className="nav-link h5 mb-0 link"
@@ -19,7 +19,7 @@ function Navigation({ handlePageChange }) {
               About
             </Link>
           </li>
-          <li className="nav-item">
+          <li className="nav-item px-3">
             <Link
               to="/portfolio"
               className="nav-link h5 mb-0 link"
@@ -28,7 +28,7 @@ function Navigation({ handlePageChange }) {
               Portfolio
             </Link>
           </li>
-          <li className="nav-item">
+          <li className="nav-item px-3">
             <Link
               to="/skills"
               className="nav-link h5 mb-0 link"
@@ -37,7 +37,7 @@ function Navigation({ handlePageChange }) {
               Skills
             </Link>
           </li>
-          <li className="nav-item">
+          <li className="nav-item px-3">
             <Link
               to="/contact"
               className="nav-link h5 mb-0 link"
