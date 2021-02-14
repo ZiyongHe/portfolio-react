@@ -52,8 +52,7 @@ function Portfolio() {
       alt: 'employee-directory',
       id: 'employee-directory',
       projectName: 'Employee Directory',
-      description:
-        'Lookup employee information quickly with sorting and searching',
+      description: 'Lookup employee information with filters',
       builtWith: 'MERN | Randomuser API | Bootstrap',
       href: 'https://github.com/ZiyongHe/employee-directory',
     },
