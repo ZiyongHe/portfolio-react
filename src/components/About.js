@@ -18,10 +18,10 @@ function About({ currentPage }) {
               Hi, my name is <span id="name">Ziyong He</span>.
             </h2>
             <h3 className="my-5">
-              I am a Full Stack Web Developer using MEAN solution stack with
-              background in Aerospace Enginnering and transferable skills.
-              Available for job oppotunities.
+              I am a Web Developer using MEAN stack with background in Aerospace
+              Enginnering, E-commerce and transferable skills.
             </h3>
+            <h3>Available for job oppotunities.</h3>
             <a
               href={`${process.env.PUBLIC_URL}/assets/Resume_ZiyongHE.pdf`}
               className="btn my-3 border border-warning rounded"
