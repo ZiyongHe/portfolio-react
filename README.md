@@ -15,10 +15,10 @@ This portfolio introduces myself, containing my resume, social media links, appl
 
 
 
-### The Other Version of Portfolio without React 
+## An Other Version of Portfolio without React 
 
 :link: [Link to view](https://ziyonghe.github.io/Portfolio/index.html)
 
-**Built with**
+**Differently Built with**
 - animate on scroll
 - anime.js
